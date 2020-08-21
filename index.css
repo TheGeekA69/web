@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+li {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px 0;
+    
+}
+
+
+
+#handle {
+    margin: 20px;
+    /*transform: rotate(90deg);*/
+}
+@keyframes handleon {
+    from {transform: rotate(0);}
+    to {transform: rotate(90deg);}
+}
+@keyframes handleoff {
+    from {transform: rotate(90deg);}
+    to {transform: rotate(0);}
+}
+
+.header {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s, font-size 1s;
+    padding: 50px;
+}
+.header:hover {
+    opacity: 0;    
+    font-size: xx-large;
+}

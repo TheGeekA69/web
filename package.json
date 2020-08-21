@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Testing javascript libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGeekA69/web.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "TheGeekA69",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheGeekA69/web/issues"
+  },
+  "homepage": "https://github.com/TheGeekA69/web#readme"
+}
