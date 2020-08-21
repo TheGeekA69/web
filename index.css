@@ -15,7 +15,6 @@ li {
     text-decoration: none;
     color: black;
     margin: 0 5px 0;
-    
 }
 
 
@@ -43,3 +42,60 @@ li {
     opacity: 0;    
     font-size: xx-large;
 }
+
+h2 {
+    text-indent: 10%;        
+}
+
+p { 
+    margin: 15%;        
+}
+
+h3 {
+    text-indent: 10%; 
+    /*margin-top: 5%;*/       
+}
+
+.component 
+{ 
+    padding: 2rem; 
+     
+    background-color: lightgray; 
+     
+       animation: 2s infinite alternate ease-in-out breathing-color--dark; 
+} 
+  
+@keyframes breathing-color--dark 
+{ 
+    from 
+    { 
+        background-color: lightgray; 
+    } 
+    to 
+    { 
+        background-color: gray; 
+    } 
+} 
+.container 
+{ 
+    padding: 1rem; 
+    background-color: white; 
+} 
+ 
+p 
+{ 
+    margin: 15; 
+} 
+ 
+body 
+{ 
+    margin: 15; 
+     
+    background-color: lightgray; 
+} 
+
+.box {
+    border-left: solid 3px black;
+
+}
+
