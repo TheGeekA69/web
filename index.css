@@ -99,3 +99,8 @@ body
 
 }
 
+#aostest {
+    padding: 20px;
+    background-color: lightblue;
+    width: 10%;
+}

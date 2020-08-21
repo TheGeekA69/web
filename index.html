@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/5641fd34aa.css">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
 </head>
 <body>
     <!-- Reveal navbar -->
@@ -47,6 +47,8 @@
 
 <p>Open the Terminal: either by double-clicking the icon in Applications/Utilities or by toggling Spotlight (Command+Space) and looking up Terminal. Once opened, it should look like this:</p>
 
+<div id="aostest" data-aos="fade-up-right" data-aos-duration="2000">Hello There!</div>
+
 <p>Now go to Terminal > Preferences in your menu bar, or hit Command+, Go straight to the “Profiles” tab. You can use one of the presets here (I was using ‘Pro’ until recently) or make your own by clicking on the + button in the bottom left corner. Give your new profile a name and start customizing away!</p>
 
 <p>In this article, we will create a highly transparent (but still legible) profile. We will also use a third-party font from JetBrains that you can download here. Most of the tweaking happens on this tab of the settings. First, click the rectangle next to “color and effect” and set the opacity to 30% and blur to 50%. You can optionally choose a different style for when the window is inactive (meaning not in focus). When done, close the small window. Remember to select your profile on the left to see the changes happen in real time. If they don’t, close the terminal window (not the settings!) and reopen one.</p>
@@ -54,5 +56,13 @@
 <p>As for the font, go to your download folders and extract the zip. Go the ttf subfolder and select all the fonts then double-click. Alternatively, you can open the app Font Book, click the + button at the top of the window and select the ttf folder. When done, go back to your Terminal settings and click the Change button. Select JetBrains Mono in the Fixed Width collection. Set the size slider on the right to 13px, then character spacing to 1 and line spacing to 1.2. Close the window.</p>
 </div>
 </div>
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
